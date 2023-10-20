@@ -17,4 +17,16 @@
       </profile>
     </annotationProcessing>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hermes-common" options="-parameters" />
+      <module name="hermes-cron" options="-parameters" />
+      <module name="hermes-handler" options="-parameters" />
+      <module name="hermes-service-api" options="-parameters" />
+      <module name="hermes-service-api-impl" options="-parameters" />
+      <module name="hermes-stream" options="-parameters" />
+      <module name="hermes-support" options="-parameters" />
+      <module name="hermes-web" options="-parameters" />
+    </option>
+  </component>
 </project>

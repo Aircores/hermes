@@ -2,9 +2,39 @@
 <project version="4">
   <component name="RemoteRepositoriesConfiguration">
     <remote-repository>
+      <option name="id" value="nexus-server@public" />
+      <option name="name" value="nexus-server@public" />
+      <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Central Repository" />
       <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="ifp.ab.git" />
+      <option name="name" value="ifp2 AB github Nexus Repository" />
+      <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="ynet.git" />
+      <option name="name" value="ynet ynet github Nexus Repository" />
+      <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="http://mirrors.ibiblio.org/pub/mirrors/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="nexus-server@public-snapshots" />
+      <option name="name" value="nexus-server@public-snapshots" />
+      <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />
@@ -12,9 +42,49 @@
       <option name="url" value="https://repo1.maven.org/maven2" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="ynet.git" />
+      <option name="name" value="ynet ynet github Nexus Repository" />
+      <option name="url" value="http://10.10.10.232:8081/repository/maven-ynet/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="ifp.ab.git" />
+      <option name="name" value="ifp2 AB github Nexus Repository" />
+      <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="nexus-server@public" />
+      <option name="name" value="nexus-server@public" />
+      <option name="url" value="http://mvn.cloud.alipay.com/nexus/content/repositories/releases" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="nexus-server@public" />
+      <option name="name" value="nexus-server@public" />
+      <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="jboss.community" />
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="ynet.git" />
+      <option name="name" value="ynet ynet github Nexus Repository" />
+      <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="nexus-server@public-snapshots" />
+      <option name="name" value="nexus-server@public-snapshots" />
+      <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="nexus-server@public-snapshots" />
+      <option name="name" value="nexus-server@public-snapshots" />
+      <option name="url" value="http://mvn.cloud.alipay.com/nexus/content/repositories/snapshots" />
     </remote-repository>
   </component>
 </project>
