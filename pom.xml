@@ -31,21 +31,35 @@
             <dependency>
                 <groupId>cn.hutool</groupId>
                 <artifactId>hutool-all</artifactId>
-                <version>5.7.11</version>
+                <version>5.7.15</version>
             </dependency>
 
             <!--guava工具包-->
             <dependency>
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
-                <version>20.0</version>
+                <version>31.0.1-jre</version>
             </dependency>
 
             <!--fastjson包-->
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
-                <version>1.2.76</version>
+                <version>1.2.83</version>
+            </dependency>
+
+            <!--腾讯sdk(目前用在短信上)-->
+            <dependency>
+                <groupId>com.tencentcloudapi</groupId>
+                <artifactId>tencentcloud-sdk-java</artifactId>
+                <version>3.1.510</version>
+            </dependency>
+
+            <!--mysql驱动包-->
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>8.0.11</version>
             </dependency>
 
         </dependencies>

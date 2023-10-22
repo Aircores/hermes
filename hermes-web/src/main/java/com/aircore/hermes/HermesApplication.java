@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * @author wanghf@belink.com
+ * @author aircore@belink.com
  */
 @SpringBootApplication
 public class HermesApplication {
