@@ -1,7 +1,7 @@
-package com.java3y.austin.common.enums;
+package com.aircore.hermes.common.enums;
 
 
-import com.java3y.austin.common.dto.model.*;
+import com.aircore.hermes.common.dto.model.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.ToString;
@@ -12,7 +12,7 @@ import java.util.Objects;
 /**
  * 发送渠道类型枚举
  *
- * @author 3y
+ * @author
  */
 @Getter
 @ToString

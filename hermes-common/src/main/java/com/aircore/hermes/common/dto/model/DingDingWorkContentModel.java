@@ -1,4 +1,4 @@
-package com.java3y.austin.common.dto.model;
+package com.aircore.hermes.common.dto.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -6,7 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @author 3y
+ * @author
  * 钉钉 工作通知
  * <p>
  * https://open.dingtalk.com/document/orgapp-server/asynchronous-sending-of-enterprise-session-messages

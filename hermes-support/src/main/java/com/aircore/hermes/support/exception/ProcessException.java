@@ -1,11 +1,12 @@
-package com.java3y.austin.support.exception;
+package com.aircore.hermes.support.exception;
 
-import com.java3y.austin.common.enums.RespStatusEnum;
-import com.java3y.austin.support.pipeline.ProcessContext;
+
+import com.aircore.hermes.common.enums.RespStatusEnum;
+import com.aircore.hermes.support.pipeline.ProcessContext;
 
 /**
- * @author SamLee
- * @since 2022-03-29
+ * @author
+ * @since
  */
 public class ProcessException extends RuntimeException {
 

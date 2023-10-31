@@ -1,7 +1,7 @@
-package com.java3y.austin.common.enums;
+package com.aircore.hermes.common.enums;
 
 /**
- * @author kyw7
+ * @author
  * 枚举接口
  */
 interface PowerfulEnum {

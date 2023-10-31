@@ -1,4 +1,4 @@
-package com.java3y.austin.common.enums;
+package com.aircore.hermes.common.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -7,8 +7,7 @@ import lombok.ToString;
 /**
  * 全局响应状态枚举
  *
- * @author zzb
- * @since 2021.11.17
+ * @author aircore
  **/
 @Getter
 @ToString

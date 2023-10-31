@@ -1,10 +1,10 @@
-package com.java3y.austin.common.constant;
+package com.aircore.hermes.common.constant;
 
 
 /**
  * Austin常量信息
  *
- * @author 3y
+ * @author aircore
  */
 public class AustinConstant {
 
@@ -41,5 +41,7 @@ public class AustinConstant {
      */
     public static final String CACHE_KEY_PREFIX = "Austin";
     public static final String MESSAGE_ID = "MessageId";
+
+    public static final String TRUE = "1";
 
 }

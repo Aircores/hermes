@@ -1,4 +1,4 @@
-package com.java3y.austin.common.enums;
+package com.aircore.hermes.common.enums;
 
 
 import lombok.AllArgsConstructor;
@@ -8,7 +8,7 @@ import lombok.ToString;
 /**
  * 发送ID类型枚举
  *
- * @author 3y
+ * @author
  */
 @Getter
 @ToString
