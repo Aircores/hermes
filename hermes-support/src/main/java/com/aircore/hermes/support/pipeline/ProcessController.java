@@ -43,7 +43,7 @@ public class ProcessController {
         for (BusinessProcess businessProcess : processList){
             businessProcess.process(context);
             if (context.getNeedBreak()){
-                break;;
+                break;
             }
         }
         return context;
