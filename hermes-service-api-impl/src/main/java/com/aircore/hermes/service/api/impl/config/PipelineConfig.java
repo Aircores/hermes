@@ -3,6 +3,7 @@ package com.aircore.hermes.service.api.impl.config;
 import com.aircore.hermes.service.api.impl.action.AfterParamCheckAction;
 import com.aircore.hermes.service.api.impl.action.AssembleAction;
 import com.aircore.hermes.service.api.impl.action.PreParamCheckAction;
+import com.aircore.hermes.service.api.impl.action.SendMqAction;
 import com.aircore.hermes.support.pipeline.ProcessTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -23,6 +24,8 @@ public class PipelineConfig {
     private AssembleAction assembleAction;
     @Autowired
     private AfterParamCheckAction afterParamCheckAction;
+    @Autowired
+    private SendMqAction sendMqAction;
 
     /**
      * 普通发送执行流程
@@ -37,7 +40,7 @@ public class PipelineConfig {
     public ProcessTemplate commonSendTemplate(){
         ProcessTemplate processTemplate = new ProcessTemplate();
         processTemplate.setProcessList(Arrays.asList(preParamCheckAction, assembleAction,
-                afterParamCheckAction));
+                afterParamCheckAction, sendMqAction));
         return processTemplate;
     }
 

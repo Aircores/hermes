@@ -1,11 +1,11 @@
-package com.java3y.austin.support.mq.eventbus;
+package com.aircore.hermes.support.mq.eventbus;
 
+import com.aircore.hermes.common.domain.TaskInfo;
+import com.aircore.hermes.support.constans.MessageQueuePipeline;
+import com.aircore.hermes.support.domain.MessageTemplate;
+import com.aircore.hermes.support.mq.SendMqService;
 import com.alibaba.fastjson.JSON;
 import com.google.common.eventbus.EventBus;
-import com.java3y.austin.common.domain.TaskInfo;
-import com.java3y.austin.support.constans.MessageQueuePipeline;
-import com.java3y.austin.support.domain.MessageTemplate;
-import com.java3y.austin.support.mq.SendMqService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -14,7 +14,7 @@ import org.springframework.stereotype.Service;
 
 
 /**
- * @author 3y
+ * @author
  * EventBus 发送实现类
  */
 @Slf4j

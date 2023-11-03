@@ -1,7 +1,7 @@
-package com.java3y.austin.support.mq.rabbit;
+package com.aircore.hermes.support.mq.rabbit;
 
-import com.java3y.austin.support.constans.MessageQueuePipeline;
-import com.java3y.austin.support.mq.SendMqService;
+import com.aircore.hermes.support.constans.MessageQueuePipeline;
+import com.aircore.hermes.support.mq.SendMqService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,13 +1,9 @@
-package com.java3y.austin.support.mq.rocketmq;
+package com.aircore.hermes.support.mq.rocketmq;
 
-import com.java3y.austin.support.constans.MessageQueuePipeline;
-import com.java3y.austin.support.mq.SendMqService;
+import com.aircore.hermes.support.constans.MessageQueuePipeline;
+import com.aircore.hermes.support.mq.SendMqService;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.lang3.StringUtils;
-import org.apache.rocketmq.spring.core.RocketMQTemplate;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
-import org.springframework.messaging.support.MessageBuilder;
 import org.springframework.stereotype.Service;
 
 /**
@@ -21,19 +17,19 @@ import org.springframework.stereotype.Service;
 @ConditionalOnProperty(name = "austin.mq.pipeline", havingValue = MessageQueuePipeline.ROCKET_MQ)
 public class RocketMqSendMqServiceImpl implements SendMqService {
 
-    @Autowired
-    private RocketMQTemplate rocketMQTemplate;
+//    @Autowired
+//    private RocketMQTemplate rocketMQTemplate;
 
     @Override
     public void send(String topic, String jsonValue, String tagId) {
-        if (StringUtils.isNotBlank(tagId)) {
-            topic = topic + ":" + tagId;
-        }
-        send(topic, jsonValue);
+//        if (StringUtils.isNotBlank(tagId)) {
+//            topic = topic + ":" + tagId;
+//        }
+//        send(topic, jsonValue);
     }
 
     @Override
     public void send(String topic, String jsonValue) {
-        rocketMQTemplate.send(topic, MessageBuilder.withPayload(jsonValue).build());
+//        rocketMQTemplate.send(topic, MessageBuilder.withPayload(jsonValue).build());
     }
 }

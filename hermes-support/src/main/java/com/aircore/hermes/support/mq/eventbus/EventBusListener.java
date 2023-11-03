@@ -1,13 +1,12 @@
-package com.java3y.austin.support.mq.eventbus;
+package com.aircore.hermes.support.mq.eventbus;
 
-
-import com.java3y.austin.common.domain.TaskInfo;
-import com.java3y.austin.support.domain.MessageTemplate;
+import com.aircore.hermes.common.domain.TaskInfo;
+import com.aircore.hermes.support.domain.MessageTemplate;
 
 import java.util.List;
 
 /**
- * @author 3y
+ * @author
  * 监听器
  */
 public interface EventBusListener {
