@@ -2,11 +2,13 @@ package com.aircore.hermes.handler.receiver.kafka;
 
 import cn.hutool.core.collection.CollUtil;
 import com.aircore.hermes.common.domain.TaskInfo;
+import com.aircore.hermes.handler.service.ConsumeService;
 import com.aircore.hermes.handler.utils.GroupIdMappingUtils;
 import com.aircore.hermes.support.constans.MessageQueuePipeline;
 import com.alibaba.fastjson.JSON;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Scope;
@@ -28,6 +30,8 @@ import java.util.Optional;
 @ConditionalOnProperty(name = "austin.mq.pipeline", havingValue = MessageQueuePipeline.KAFKA)
 public class Receiver {
 
+    @Autowired
+    private ConsumeService consumeService;
 
     /**
      * 发送消息
@@ -46,6 +50,7 @@ public class Receiver {
              */
             if (topicGroupId.equals(messageGroupId)){
                 log.info("groupId:{},params:{}", messageGroupId, JSON.toJSONString(taskInfoLists));
+                consumeService.consume2Send(taskInfoLists);
             }
         }
 
